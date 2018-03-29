@@ -1,0 +1,336 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#header {
+    overflow: hidden;
+    min-height: 100px;
+    background-color: #2A2E33;
+}
+
+#welcome {
+    overflow: hidden;
+    min-height: 420px;
+    background-color: #00CCFF;
+/*    position: relative;*/
+}
+
+#arrival {
+    overflow: hidden;
+/*    min-height: 100px;*/
+/*    position: absolute;*/
+}
+
+#package {
+    overflow: hidden;
+    
+}
+
+#room_types {
+    overflow: hidden;
+    background-image: url(../images/room_type_background.jpg);
+    position: relative;
+}
+
+#located {
+    overflow: hidden;
+    background-color: #E2C828;
+        height: 210px;
+}
+
+#footer {
+    overflow: hidden;
+    background-color: #333333;
+    min-height: 400px;
+}
+
+.wrapper {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.logo {
+    width: 30%;
+    float: left;
+    padding-top: 43px;
+}
+
+.logo img {
+    width: 49%;
+    float: left
+}
+.logo p {
+    width: 49%;
+    float: right;
+    color: #D5D5D6;
+    font-family: 'Quicksand', sans-serif;
+    font-style: italic;
+}
+
+.nav {
+    width: 60%;
+    float: right;
+}
+
+.nav ul{
+    list-style: none;
+}
+.nav ul li{
+    float: left;
+}
+.nav ul li a{
+    text-decoration: none;
+    display: block;
+    color: white;
+    padding: 43px 12px;
+}
+
+.nav ul li:first-child a{
+    padding-left: 0;
+}
+.nav ul li:last-child a{
+    padding-right: 0;
+}
+.nav ul li:hover a{
+    background-color: #1E2329;
+}
+
+.welcome_section {
+        color: white;
+        padding: 63px 0;
+}
+.welcome_section p{
+    text-align: center;
+    font-size: 26px;
+    padding: 26px 0;
+    font-family: 'Quicksand', sans-serif;
+}
+.welcome_section h1{
+    text-align: center;
+    font-size: 55px;
+    padding: 34px 0;
+    font-weight: bold;
+    font-family: 'Quicksand', sans-serif;
+}
+.welcome_section h2{
+    text-align: center;
+    font-size: 26px;
+    padding: 26px 0;
+    letter-spacing: 1px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.main_content{
+    position: relative;
+}
+
+.arrival_info {
+    width: 83%;
+    background-color: #2A2E33;
+    margin: 0 auto;
+    height: 90px;
+    position: absolute;
+    top: 389px;
+    left: 73px;
+}
+
+.single_arrival {
+    display: block;
+    float: left;
+    padding: 8px 14px;
+/*    padding: 26px 19px;*/
+}
+.single_arrival p{
+    color: yellow;
+    padding: 3px 0;
+    font-family: 'Quicksand', sans-serif;
+}
+.single_arrival form{}
+.single_arrival form input{
+/*    position: relative;*/
+    width: 205px;
+    height: 36px;
+    padding: 0 1px;
+    border-radius: 9px;
+}
+.single_arrival form img{
+/*    position: absolute;*/
+    
+}
+.view_prices {
+}
+.view_prices button{
+    padding: 10px 16px;
+    margin: 31px -5px;
+    border-radius: 6px;
+    background: yellow;
+}
+.view_prices button p{
+        font-size: 14px;
+    font-weight: bold;
+}
+
+.package_info {
+    background-image: url(../images/package_background.jpg);
+       padding: 95px 129px;
+}
+
+.package_info_head h1{
+    text-align: center;
+    padding: 13px 0;
+    font-size: 35px;
+    font-weight: 100;
+        font-family: 'Alex Brush', cursive;
+
+}
+.package_info_head p{
+    text-align: center;
+    font-size: 16px;
+    padding-bottom: 30px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.package_info_img {
+    width: 100%;
+    padding: 35px 0;
+}
+
+.package_info_img .arrow{
+    padding: 65px 64px;
+}
+.package_info_img .circle{
+    padding: 0 9px; 
+}
+
+.types_of_room {
+}
+
+.heading h1{
+    text-align: center;
+    font-size: 36px;
+    font-weight: 100;
+    padding: 15px 0;
+    font-family: 'Alex Brush', cursive;
+}
+
+.single_type {
+    width: 30%;
+    float: left;
+    padding: 25px 17px;
+}
+.single_type img{
+    width: 100%;
+}
+.single_type h1{
+    text-align: center;
+    font-weight: 100;
+    font-family: 'Quicksand', sans-serif;
+}
+.single_type p{
+    text-align: center;
+    font-size: 14px;
+    padding: 5px 0;
+    font-family: 'Quicksand', sans-serif;
+}
+.single_type ul{
+        list-style: none;
+        margin: 8px 74px;
+}
+.single_type ul li{
+    float: left;
+}
+.single_type ul li a{
+        padding: 0 4px;
+}
+
+
+.location_of_hotel {
+    
+}
+
+.location_of_hotel h1{
+/*    float: left;*/
+    color: white;
+    padding: 21px 0;
+    font-size: 47px;
+    font-weight: 100;
+    font-family: 'Quicksand', sans-serif;
+}
+.location_of_hotel p{
+    float: left;
+    font-size: 20px;
+    color: white;
+    padding: 10px 0;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.location_of_hotel img{
+    float: right;
+    position: relative;
+    top: -115px;
+}
+footer {
+    min-height: 300px;
+    background-color: #333333;
+    border-bottom: 30px solid #1f1f1f;
+}
+
+.footer_content {
+    padding-top: 20px;
+}
+.footer_text {
+    width: 20%;
+    float: left;
+    color: white;
+    padding-right: 20px;
+    /* padding-right: 58px; */
+}
+.footer_text:last-child {
+    float: right;
+}
+.footer_heading {
+    font-size: 15px;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    word-spacing: 5px;
+}
+.footer_description {
+    font-size: 13px;
+    letter-spacing: 1px;
+    font-weight: 100;
+}
+.large {
+    width: 30%;
+}
+.font {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: regular;
+}
+.button {
+    margin-top: 20px;
+    height: 25px;
+    width: 80px;
+    background-color: #e7cb2c;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    font-size: 10px;
+    border-radius: 10px;
+    border: none;
+}
+.clr {
+    color: #80722f;
+}
+.font2 {
+    font-family: 'Libre Baskerville', serif;
+    font-weight: regular;
+}
+.text {
+    height: 32px;
+    width: 170px;
+    background-color: white;
+    border-radius: 10px;
+    border: 2px #ac9999;
+    margin: 10px 0px;
+}
